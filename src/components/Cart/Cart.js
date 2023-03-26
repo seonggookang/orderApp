@@ -6,7 +6,7 @@ const Cart = (props) => {
   const cartItems = <ul className={classes['cart-items']}>
     {[{
       id: 'c1', name: 'Sushi', amount: 2, price: 12.99
-    },].map(item => <li>{item.name}</li>)}
+    },].map((item,idx) => <li key={idx}>{item.name}</li>)}
   </ul>;
 
     // <div> {/* 장바구니는 div 안에 있으며 안된다. */}

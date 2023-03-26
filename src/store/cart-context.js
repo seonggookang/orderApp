@@ -7,4 +7,4 @@ const CartContext = React.createContext({ // 이와 같으 코드 사용 이유:
   removeItem: (id) => {}
 })
 
-export default CartContext
+export default CartContext  
